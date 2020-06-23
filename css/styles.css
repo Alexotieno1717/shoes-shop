@@ -197,6 +197,16 @@ ABOUT US
 .about-us-text{
     padding-left: 10px;
 }
+/* our team */
+.our-team-header{
+    text-align: center;
+    padding-top: 20px;
+}
+.our-team-images{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 
 
 /* ==================================
@@ -236,5 +246,12 @@ MEDIA QUERY
     .partners-content{
         display: block;
     }
+
+    .our-team-images{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
 
 }
