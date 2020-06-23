@@ -92,7 +92,28 @@ WHO WE ARE
 /* =================================
 NEW ARRIVALS
 ==========================================================*/
-
+.new-arrivals{
+    text-align: center;
+    padding-top: 10px;
+}
+.new-arivals-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.btn-custom{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    box-sizing: none;
+    background-color: transparent;
+    border: 1px solid #000;
+    transition: .5s;
+}
+.btn-custom:hover{
+    background: black;
+    color: cyan;
+}
 
 
 
@@ -128,6 +149,10 @@ MEDIA QUERY
     } 
 
     .menu-icon{
+        display: block;
+    }
+
+    .new-arivals-content{
         display: block;
     }
 

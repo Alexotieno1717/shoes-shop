@@ -4,3 +4,7 @@ $(document).ready(function() {
         $("nav ul").toggleClass("showing");
     });
 });
+
+function myFunction(){
+    alert("Size: 42 " + "Amount: $500,");
+}
