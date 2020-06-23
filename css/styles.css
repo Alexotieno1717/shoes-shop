@@ -115,10 +115,67 @@ NEW ARRIVALS
     color: cyan;
 }
 
+/* ==================================
+OUR PARTNERS
+===================================================*/
+.partners{
+    text-align: center;
+    padding-top: 20px;
+}
+.partners-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
 
 
-
-
+/* ===========================================
+FOOTER
+==============================================================*/
+footer{
+    background: #000;
+    height: 200px;
+}
+.social-icon{
+    text-align: center;
+    color: white;
+}
+.icons{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid cyan;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.fa-whatsapp{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid cyan;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.fa-google{
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid cyan;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+.logo-footer{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 3px;
+}
 
 
 
@@ -153,6 +210,10 @@ MEDIA QUERY
     }
 
     .new-arivals-content{
+        display: block;
+    }
+
+    .partners-content{
         display: block;
     }
 
