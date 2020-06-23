@@ -29,6 +29,13 @@ header{
     background: url(../images/img-100.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+.header-contact{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/contact.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-position: left;
+}
 .container{
     width: 90%;
     margin: 4em auto;
@@ -150,7 +157,7 @@ footer{
 }
 .social-icon{
     text-align: center;
-    color: white;
+    color: cyan;
 }
 .icons{
     margin-right: 10px;
@@ -233,10 +240,24 @@ PRODUCT
     box-shadow: 2px 2px 2px #000;
 }
 
+/* ==============================================
+Contact
+================================================================*/
+.contact-content{
+    display: flex;
+}
+.contact-form{
+    padding-left: 20%;
+}
+.get-in{
+    text-align: center;
+    font-size: 24px;
+}
+.form-group{}
 
-/* ==================================
+/* ==============================================
 MEDIA QUERY
-===============================================*/
+=============================================================*/
 @media(max-width: 580px) {
     .logo{
         position: fixed;
@@ -279,6 +300,10 @@ MEDIA QUERY
     }
 
     .product-images-1{
+        display: block;
+    }
+
+    .contact-content{
         display: block;
     }
     
