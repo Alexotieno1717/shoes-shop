@@ -17,6 +17,12 @@ header{
     background: url(../images/KL.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+.header-about{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/54.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
 .container{
     width: 90%;
     margin: 4em auto;
@@ -177,6 +183,20 @@ footer{
     padding-bottom: 3px;
 }
 
+/* =================================
+ABOUT US
+========================================================= */
+.about-content{
+    display: flex;
+    text-align: center;
+}
+.about-who-we-are{
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.about-us-text{
+    padding-left: 10px;
+}
 
 
 /* ==================================
