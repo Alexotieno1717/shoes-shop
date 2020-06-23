@@ -217,8 +217,21 @@ ABOUT US
 /* =====================================
 PRODUCT 
 ====================================================*/
-
-
+.product-header{
+    text-align: center;
+}
+.product-images-1{
+    display: flex;
+    padding-top: 20px;
+}
+.product-services-img-1{
+    text-align: center;
+    transition: .5s;
+    padding-bottom: 10px;
+}
+.product-services-img-1:hover{
+    box-shadow: 2px 2px 2px #000;
+}
 
 
 /* ==================================
@@ -263,6 +276,10 @@ MEDIA QUERY
         display: block;
         justify-content: space-between;
         text-align: center;
+    }
+
+    .product-images-1{
+        display: block;
     }
     
 
